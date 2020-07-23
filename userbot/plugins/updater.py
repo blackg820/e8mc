@@ -16,9 +16,9 @@ IS_SELECTED_DIFFERENT_BRANCH = (
     "please check out to an official branch, and re-start the updater."
 )
 OFFICIAL_UPSTREAM_REPO = "https://github.com/blackg820/e8mc"
-BOT_IS_UP_TO_DATE = "Black userbot is up-to-date!."
+BOT_IS_UP_TO_DATE = "BLack userbot is up-to-date!."
 NEW_BOT_UP_DATE_FOUND = (
-    "**BLack Update Found For** {branch_name}\n"
+    "**Friday Update Found For** {branch_name}\n"
     "\n\n{changelog}\n"
     "Pulling Updates !!"
 )
@@ -141,7 +141,7 @@ def generate_change_log(git_repo, diff_marker):
 async def deploy_start(bot, message, refspec, remote):
     await message.edit(RESTARTING_APP)
     await message.edit("**The Latest Branch** `Master` **Has Been Pushed To Heroku** \n**Now Trying A Restart To Complete Updation Process ⚠️ !!** To Check If I am Alive Just Do `.alive` or `.help` !!!! Thank For Using BLack Userbot Service (◍•ᴗ•◍)❤")
-    await remote.push(refspec=refspec)
+    remote.push(refspec=refspec)
     await bot.disconnect()
     os.execl(sys.executable, sys.executable, *sys.argv)
 
