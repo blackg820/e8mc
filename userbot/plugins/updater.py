@@ -18,7 +18,7 @@ IS_SELECTED_DIFFERENT_BRANCH = (
 OFFICIAL_UPSTREAM_REPO = "https://github.com/blackg820/e8mc"
 BOT_IS_UP_TO_DATE = "BLack userbot is up-to-date!."
 NEW_BOT_UP_DATE_FOUND = (
-    "**Friday Update Found For** {branch_name}\n"
+    "**BLack Update Found For** {branch_name}\n"
     "\n\n{changelog}\n"
     "Pulling Updates !!"
 )
