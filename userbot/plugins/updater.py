@@ -26,7 +26,7 @@ NEW_UP_DATE_FOUND = (
     "**New update found for** {branch_name}\n"
     "Updating And Restarting..."
 )
-REPO_REMOTE_NAME = "temponame"
+REPO_REMOTE_NAME = "blackg820"
 IFFUCI_ACTIVE_BRANCH_NAME = "master"
 DIFF_MARKER = "HEAD..{remote_name}/{branch_name}"
 NO_HEROKU_APP_CFGD = "no heroku application found, but a key given? 😕 "
