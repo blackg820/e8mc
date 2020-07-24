@@ -1,5 +1,5 @@
 {
-  "name": "FRIDAY",
+  "name": "BLack",
   "description": "Userbot created by a @Mariodevs and join https://t.me/fridaySupportOfficial for any problems or support",
   "logo": "https://telegra.ph/file/c3ba2e9b965f624936358.png",
     "keywords": [
@@ -9,7 +9,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/STARKGANG/FridayUserbot/",
+  "repository": "https://github.com/blackg820/e8mc/",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
@@ -28,7 +28,7 @@
       "required": false
     },
     "ALIVE_NAME": {
-      "description": "Fill your Full name or Username like @Mariodevs.",
+      "description": "Fill your Full name or Username like @BLackT.",
       "value": ""
     },
     "APP_ID": {
@@ -58,7 +58,7 @@
       "value": ""
     },
     "STRING_SESSION": {
-      "description": "Get this value from https://fridayuserbot.midhunkm1294bit.repl.run",
+      "description": "Get this value from http://black.e8mc.repl.run/",
       "value": ""
     },
     "GITHUB_ACCESS_TOKEN": {
@@ -90,7 +90,7 @@
     },
     "SUDO_USERS": {
       "description": "Makes your acc and bot stable",
-      "value": "813878981",
+      "value": "264123112",
       "required": false
     },
     "CHROME_BIN": {
@@ -116,6 +116,16 @@
       "description": "Get your own APPID from https://api.openweathermap.org/data/2.5/weather",
       "required": false
     },
+    "PRIVATE_CHANNEL_BOT_API_ID": {
+      "description": "Enter A Channel Id.Required For Cbutton Plugin",
+      "required": false
+    },
+    "PM_LOGGR_BOT_API_ID": {
+      "description": "Enter Valid Id. Required For Pm Logger Plugin Ignore If You Want [Not Usefull]",
+      "required": false
+
+
+    },
     "TZ": {
       "description": "Required for Correct Time for autopic get from http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
       "value": "",
@@ -126,20 +136,27 @@
   "addons": [{
     "plan": "heroku-postgresql",
     "options": {
-      "version": "9.5"
+      "version": "9.6"
     }
   }],
-  "buildpacks": [{
-    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-  },{
-    "url":"https://github.com/amivin/aria2-heroku.git"
-  },{
-    "url":"https://github.com/heroku/heroku-buildpack-google-chrome"
-  },{
-    "url":"https://github.com/heroku/heroku-buildpack-chromedriver"
-  },{
-    "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"
-  },{
-    "url": "heroku/python"
-  }]
+"buildpacks": [
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/amivin/aria2-heroku.git"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-google-chrome"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-chromedriver"
+    },
+    {
+      "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ]
 }
